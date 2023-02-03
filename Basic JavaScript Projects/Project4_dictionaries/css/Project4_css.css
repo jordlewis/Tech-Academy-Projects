@@ -1,0 +1,19 @@
+body {
+    opacity: 1;
+    transition: 1s opacity;
+    color: white;
+    text-align: center;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+html { 
+    background-color: black;
+}
+
+p { 
+    font-size: 5vW;
+}
